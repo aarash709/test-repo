@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: show owner`s name
+          echo ${{ github.actor }} is the guy who commited.
+          echo the end.
